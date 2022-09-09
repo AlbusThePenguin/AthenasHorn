@@ -1,0 +1,34 @@
+Settings:
+  #plugin prefix. supports hex and minecraft color codes. (I hope)
+  prefix: "&8&l[&b&lAthenas &7&lHorn&8&l]"
+
+  #The radius for which the goats
+  xCord: 15
+  yCord: 15
+  zCord: 15
+
+  #permission required for the horn(s) to call on goats.
+  permission: 'ahorn.use'
+
+Title:
+  #Want to disable title message set 'use: false'
+  use: true
+
+  fadeIn: 30
+  fadeOut: 30
+  stay: 30
+
+  #Supports hex and Bukkit Color codes.
+  #Hex Example: '&#3B3B3BMy Title'
+  #Bukkit Example: '&e&lMy title'
+  title: "Goats Has Been Summoned"
+  subtitle: "Lead the pack"
+
+Messages:
+  #Want to disable messages set 'use: false'
+  use: true
+  default: "&eYou called the goats, and the goats appear."
+
+
+#Does not impact the server performance, and helps the plugin track usage anonymously. If you want disabled set false.
+Metrics: true
